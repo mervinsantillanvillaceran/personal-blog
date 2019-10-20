@@ -9,8 +9,8 @@ tags:
 ---
 
 Php null coalescing operator only works on Php version 7 and up.  
-<br>
-### What is Null Coalescing operator?
+
+### What is null coalescing operator?
 The null coalescing operator (??) will check if the first operand is set or not NULL. If it is not NULL, then it will return the value of the first operand. Otherwise, it will return the value of the second operand.
 
 ### How to use null coalescing operator?
