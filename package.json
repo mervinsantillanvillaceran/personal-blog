@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "npx eleventy",
+    "build": "npm run build:css && npx eleventy",
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "build:css": "postcss resources/css/style.css -c tailwind.config.js -o dist/assets/css/style.css"
