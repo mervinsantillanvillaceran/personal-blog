@@ -1,0 +1,19 @@
+<div class="mt-10 mb-10 max-w-sm rounded-lg overflow-hidden bg-white shadow-lg  w-full max-w-full flex">
+  <div class="mt-4 ml-4 mr-4 h-30 w-32 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/assets/img/profile.jpeg')" title="Mervin Villaceran Avatar">
+  </div>
+  <div class="border-l-2 border-gray-200 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+    <div class="mb-8">
+      <div class="text-gray-900 font-bold text-xl mb-2">{{ personal.name }} 👱🏻</div>
+      <p class="text-gray-700 text-base">{{ personal.excerpt}} 👨🏼‍💻</p>
+    </div>
+    <div class="flex items-center mb-3">
+      <div class="text-md">
+        <p class="text-gray-900 leading-none">
+            <a href="{{ '/about' | url }}" class="mr-3 border-b-4 p-2 border-gray-800 hover:bg-gray-800 hover:text-gray-100 hover:border-pink-500"><span>About</span></a>
+            <a href="mailto:{{ metadata.author.email }}" class="mr-3 border-b-4 p-2 border-gray-800 hover:bg-gray-800 hover:text-gray-100 hover:border-pink-500"><span>Email</span></a>
+            <a href="{{ metadata.author.github }}" target="_blank" class="mr-3 border-b-4 p-2 border-gray-800 hover:bg-gray-800 hover:text-gray-100 hover:border-pink-500"><span>Github</span></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

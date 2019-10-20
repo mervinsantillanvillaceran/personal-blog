@@ -5,14 +5,14 @@ tags:
 navtitle: 🏠 Home
 ---
 <div id="info">
-    <p class="font-extrabold text-5xl">Mervin Villaceran 👱🏻</p>
+    <p class="font-extrabold text-5xl">{{ personal.name }} 👱🏻</p>
     <p class="text-2xl">
-        is a Filipino Software Developer who continues to learn new things.<br>
+        {{ personal.excerpt }}<br>
     </p>
 </div>
-<div class="mt-16">
+<div class="mt-10">
     <p class="font-extrabold text-4xl">📰 Latest Blogs</p>
 
     {% set postslist = collections.blog | tail(10) %}
-    {% include "layouts/postslist.njk" %}
+    {% include "components/postslist.njk" %}
 </div>

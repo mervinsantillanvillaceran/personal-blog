@@ -9,4 +9,7 @@ permalink: /blogs/
 <p class="font-extrabold text-4xl">📖 Blogs</p>
 
 {% set postslist = collections.blog | reverse %}
-{% include "layouts/postslist.njk" %}
+{% include "components/postslist.njk" %}
+<div class="w-4/5">
+{% include "components/profile.njk" %}
+</div>

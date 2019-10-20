@@ -1,0 +1,51 @@
+{
+    "name": "Mervin Villaceran",
+    "excerpt": "is a Filipino Software Developer who continues to learn new things.", 
+    "skills": {
+        "intermediate" : [
+            "PHP",
+            "CodeIgniter",
+            "Javascript",
+            "JQuery",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "MySQL",
+            "MSSQL",
+            "SAP Business One",
+            "Git",
+            "EleventyJS"
+        ],
+        "beginner": [
+            "Symphony",
+            "Slim",
+            "Vue",
+            "Node",
+            "CSS3",
+            "Bulma",
+            "Tailwind",
+            "PostgreSQL"
+        ]
+    },
+    "experiences": [
+        {
+            "date" : "April - October 2015",
+            "company_name" : "MYT SoftDev Solutions",
+            "company_url" : "http://mytsoftdevsolutions.com/",
+            "position" : "Web Developer Intern"
+        },
+        {
+            "date" : "Apr 2016 - Dec 2018",
+            "company_name" : "Alliance Software Inc.",
+            "company_url" : "http://alliance.com.ph/",
+            "position" : "Associate Technical Specialist"
+        },
+        {
+            "date" : "Dec 2018 - Present",
+            "company_name" : "Hotwork International Inc.",
+            "company_url" : "https://www.hotwork.ag/",
+            "position" : "Web and Mobile Developer"
+        }
+    ],
+    "btc_address": "1HAKjrpAUqqzTyiNSrQmg6D9UQLenXXWCP"
+}
