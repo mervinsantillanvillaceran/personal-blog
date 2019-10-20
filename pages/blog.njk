@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: 📜 Blog
+permalink: /blogs/
+---
+
+<p class="font-extrabold text-4xl">📖 Blogs</p>
+
+{% set postslist = collections.blog | reverse %}
+{% include "layouts/postslist.njk" %}

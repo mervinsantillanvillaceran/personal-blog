@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk 
+---
+
+<div class="container md:w-4/5 sm:w-full">
+    <div id="back" class="mb-5">
+        <p class="text-lg"><a href="{{ '/blogs' | url }}">← Blogs</a></p>
+    </div>
+    <div id="title">
+        <p class="font-extrabold text-4xl">{{ title }}</p>
+    </div>
+    <div id="subtitle">
+        <p class="text-lg text-gray-600 flex items-center">
+            {{ date | readableDate }} • {{ content | readingTime }} read
+        </p>
+    </div>
+    <div id="content" class="content mt-10 mb-10 md:w-4/5 sm:w-full">
+        <div class="markdown">
+        {{ content | safe }}
+        </div>
+    </div>
+</div>  
+
+

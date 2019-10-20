@@ -1,0 +1,29 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: ☕️ Contribute
+permalink: /contribute/
+---
+<div class="">
+    <p class="font-extrabold text-4xl">🥤 Contribute</p>
+</div>
+
+<div class="sm:w-full md:w-3/5 mt-10">
+    <p class="text-xl">Hi, if you like my blogs or you want to say thank you, you can buy me some coffee or you can send a bitcoin through my BTC Address.</p>
+    <div class="mt-10 flex">
+        <div class="flex-1">
+            <div class="mt-8 mr-10">
+            <a href="https://www.buymeacoffee.com/smerv" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/black_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+            </div>
+        </div>
+        <div class="flex-1">
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                BTC Address
+              </label>
+              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Username" readonly value="{{ metadata.btc }}">
+            </div>
+        </div>
+    </div>
+</div>
