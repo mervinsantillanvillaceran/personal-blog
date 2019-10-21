@@ -3,7 +3,7 @@ layout: layouts/post.njk
 title: How to use Null Coalescing Operator in PHP
 slug: how-to-use-null-coalescing-operator-in-php
 date: 2018-08-02
-excerpt: A meeting is a gathering of two or more people that has been convened for the purpose of achieving a common goal through verbal interaction.
+excerpt: Learn how to use the null coalescing operator in PHP and the difference between the null coalescing and ternary operators.
 tags: 
     - blog
     - php
